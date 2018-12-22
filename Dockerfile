@@ -14,7 +14,7 @@ RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash
 
 # Install Terraform
 
-ENV TERRAFORM_VERSION 0.11.10
+ENV TERRAFORM_VERSION 0.11.11
 
 RUN wget -q -O /terraform.zip "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip" && \
   unzip /terraform.zip -d /bin 
