@@ -1,5 +1,5 @@
 # Start with node
-FROM circleci/node:8.12.0
+FROM circleci/node:12
 
 USER root
 
